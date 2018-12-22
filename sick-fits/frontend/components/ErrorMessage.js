@@ -34,7 +34,7 @@ const DisplayError = ({ error }) => {
     <ErrorStyles>
       <p data-test="graphql-error">
         <strong>Shoot!</strong>
-        {error.message.replace('GraphQL error: ', '')}
+        {error.message.replace('GraphQL dsds error: ', '')}
       </p>
     </ErrorStyles>
   );
